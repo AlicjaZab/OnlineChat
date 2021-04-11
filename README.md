@@ -1,11 +1,12 @@
 **Online Chat**
 
-Simple online chat project, made under the supervision of JetBrains Academy (https://hyperskill.org/projects/91?track=1). Input/output managed through console. 
-To start application first start the server, then start as many clients as you want and communicate thorught them.
-
-Project supports authorization, chatting between users, and some more small operations.  There is permanently added an admin user, who can add and remove moderator privileges and ban users (login: admin, password:12345678). Moderators beyond the privileges of a normal user, can only ban users.
+Simple online chat project, made under the supervision of JetBrains Academy (https://hyperskill.org/projects/91?track=1).
 
 Key Words : Sockets, multithreading, database (SQLite), Gradle
+
+Input/output managed through console. To start application first start the server, then start as many clients as you want and communicate thorught them. Note, that you should change path to database in Server.java file (String url variable).
+Project supports authorization, chatting between users, and some more small operations.  There is permanently added an admin user, who can add and remove moderator privileges and ban users (login: admin, password:12345678). Moderators beyond the privileges of a normal user, can only ban users.
+
 
 In the application commands for sever start with a "/". If you type an incorrect/inaccessible command, you will always get an appropriate message. 
 
